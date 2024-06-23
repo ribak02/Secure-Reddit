@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.terminal {
+  width: 80%;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #000;
+  border: 1px solid #333;
+}
+
+.terminal-output {
+  height: 90%;
+  background-color: #000;
+  border: none;
+  color: #33ff33;
+  padding: 5px;
+  overflow-y: auto;
+  resize: none;
+  font-size: 16px;
+}
+
+.terminal-input {
+  height: 5%;
+  background-color: #222;
+  border: none;
+  color: #33ff33;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.terminal-input:focus {
+  outline: none;
+}
